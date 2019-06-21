@@ -8,7 +8,7 @@ from random import *
 pygame.init()
 pygame.mouse.set_visible(False)
 
-new_game = False
+new_game = True
 
 exit = False
 up = False
@@ -22,10 +22,10 @@ score = 0
 
 real_screen = pygame.display.set_mode((200, 240),0,16)
 
-square_row_1 = [0,4,2,0]
-square_row_2 = [2,2,0,2]
-square_row_3 = [0,2,4,0]
-square_row_4 = [2,0,2,0]
+square_row_1 = [0,0,0,0]
+square_row_2 = [0,0,0,0]
+square_row_3 = [0,0,0,0]
+square_row_4 = [0,0,0,0]
 
 
 # okay so the square_coords is kinda weird the way i set it up
